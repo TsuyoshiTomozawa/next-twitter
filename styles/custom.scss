@@ -1,0 +1,65 @@
+.test {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tweet-box {
+  margin: 200px auto 0;
+  width: 50%;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 0 !important;
+}
+
+.MuiOutlinedInput-root {
+  height: 160px;
+
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  border-radius: 0 0 4px 4px;
+  padding: 8px 16px;
+  background-color: rgb(252, 252, 252);
+  //border-top: 1px solid rgb(184, 184, 184);
+  margin-top: 0 !important;
+
+  .card-footer-left {
+    display: flex;
+    flex-grow: 1;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .card-footer-right {
+    display: flex;
+  }
+
+  .delete-btn {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  .edit-btn {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  .post-btn {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
+
+#standard-textarea {
+  height: 200px !important;
+}
+
+
+
+
